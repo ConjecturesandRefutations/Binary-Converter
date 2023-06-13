@@ -25,6 +25,10 @@
     transform: translate(-50%);
  }
 
+ #error-msg{
+  color: red;
+ }
+
 
  @media (max-width: 600px) {
     .container {
@@ -53,7 +57,7 @@
     }
   } 
 
-  @media (max-width: 300px) {
+  @media (max-width: 325px) {
     .container {
      width: 150px;
     }
